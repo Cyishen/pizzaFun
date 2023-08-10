@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>吃Pizza</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1 class="title">How many Pizza you can eat in 10s</h1>
+    <p>Pizza slices : <span class="score">0</span></p>
+    <div class="display">
+      <h1 class="time display__time-left">0:00</h1>
+    </div>
+    <button data-time="10" class="btn timer__button" onClick="gameStart()">10 Secs</button>
+  </div>
+  <div class="game">
+    <img id="pizza" src="image/pizza01.png" alt="">
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

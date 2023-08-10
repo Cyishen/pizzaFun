@@ -1,0 +1,72 @@
+html, body {
+  background-color: yellow;
+  height: 100%;
+  width: 100%;
+}
+
+h1, p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 20px;
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  justify-content: center;
+  cursor: grab;
+}
+
+.score {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  background-color: #fff;
+  padding: 0.1rem 0.5rem;
+}
+
+.bite-1 {
+  clip-path: polygon(0% 0%, 0% 100%, 69% 100%, 50% 50%, 100% 75%, 100% 80%, 100% 91%, 100% 100%, 100% 100%, 100% 0%);
+}
+.bite-2 {
+  clip-path: polygon(0% 0%, 0% 100%, 69% 100%, 50% 50%, 100% 27%, 100% 84%, 100% 91%, 100% 100%, 100% 100%, 100% 0%);
+}
+.bite-3 {
+  clip-path: polygon(0% 0%, 0% 100%, 69% 100%, 50% 50%, 74% 0, 100% 0, 100% 91%, 100% 100%, 100% 100%, 100% 0%);
+}
+
+.bite-4 {
+  clip-path: polygon(0% 0%, 0% 100%, 69% 100%, 50% 50%, 25% 0, 100% 0, 100% 91%, 100% 100%, 100% 100%, 100% 0%);
+}
+
+.bite-5 {
+  clip-path: polygon(0% 0%, 0% 100%, 69% 100%, 50% 50%, 0 25%, 0 0, 100% 0, 100% 100%, 100% 50%, 100% 0);
+}
+.bite-6 {
+  clip-path: polygon(0% 0%, 0% 100%, 69% 100%, 50% 50%, 0 70%, 0 0, 100% 0, 100% 100%, 100% 50%, 100% 0);
+}
+.bite-7 {
+  clip-path: polygon(0% 0%, 0% 100%, 69% 100%, 50% 50%, 21% 100%, 0 100%, 0 0, 0 0, 100% 0, 100% 0);
+}
+.bite-8 {
+  clip-path: polygon(0% 0%);
+}
